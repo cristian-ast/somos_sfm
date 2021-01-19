@@ -1,0 +1,15 @@
+.Ads {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.ImagenAds {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px;
+}

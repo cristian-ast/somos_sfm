@@ -1,0 +1,8 @@
+.contenedor--noticias {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.contador {
+    display: none;
+}

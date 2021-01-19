@@ -1,0 +1,26 @@
+.Asd-computadora {
+    display: none;
+}
+
+@media only screen and (min-width: 420px) {
+    .Asd-computadora {
+        color: white;
+        display: block;
+        margin: 20px;
+        padding: 10px;
+        margin-top: 85px;
+        width: 320px;
+        border: 1px solid black;
+        border-radius: 5px;
+        background: #bdc3c7;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        height: 100%;
+    }
+
+    .Asd-computadora--p {
+        font-size: 30px;
+        font-family: 'Redressed', cursive;
+        font-weight: bolder;
+    }
+}

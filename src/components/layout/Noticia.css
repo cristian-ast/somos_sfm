@@ -1,0 +1,26 @@
+.noticia--indivudual {
+    width: 320px;
+    height: 180px;
+    margin: 20px;
+    border: 1px solid black;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 2px 2px 10px #666;
+    cursor: pointer;
+}
+
+.noticia--indivudual:hover {
+    box-shadow: 5px 5px 16px rgb(0, 0, 0);
+}
+
+.titulo--noticia {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1px;
+    color: white;
+    height: 60px;
+    width: 100%;
+}
+
+.titulo--noticia > p {
+    margin-left: 10px;
+}
